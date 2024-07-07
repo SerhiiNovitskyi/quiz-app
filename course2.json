@@ -1,0 +1,34 @@
+[
+    {
+        "question": "<p>What is 2 + 2?</p><p><strong>Select the correct answer:</strong></p>",
+        "options": [
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>",
+            "<p>6</p>"
+        ],
+        "correctAnswers": [1],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>Which are prime numbers?</p><p><em>Select all that apply:</em></p>",
+        "options": [
+            "<p>2</p>",
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>"
+        ],
+        "correctAnswers": [0, 1, 3],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>Fill in the blanks in the following code:</p><pre><code>let y = ______;\nif (y > 10) {\n    console.log('Big');\n} else {\n    console.log('Small');\n}</code></pre>",
+        "dropdownOptions": [
+            ["5", "15", "20"]
+        ],
+        "correctAnswers": [1],
+        "isDropdown": true
+    }
+]

@@ -1,0 +1,796 @@
+[
+    {
+        "question": "<p>What is the capital of France?</p><p><strong>Select the correct answer:</strong></p>",
+        "options": [
+            "<p>Berlin</p>",
+            "<p>Madrid</p>",
+            "<p><strong>Paris</strong></p>",
+            "<p>Lisbon</p>"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>Which of the following are programming languages?</p><p><em>Select all that apply:</em></p>",
+        "options": [
+            "<p><code>Python</code></p>",
+            "<p><code>HTML</code></p>",
+            "<p><code>JavaScript</code></p>",
+            "<p><code>CSS</code></p>"
+        ],
+        "correctAnswers": [
+            0,
+            2
+        ],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>Fill in the blanks in the following code:</p><pre><code>let x = ______;\nif (x < 10) {\n    console.log('Small');\n} else {\n    console.log('Large');\n}</code></pre>",
+        "dropdownOptions": [
+            [
+                "5",
+                "15",
+                "20"
+            ],
+            [
+                "5",
+                "15",
+                "20"
+            ]
+        ],
+        "correctAnswers": [
+            0,
+            0
+        ],
+        "isDropdown": true,
+        "allowMultiple": true
+    },
+    {
+        "question": "<p>Which one of the following best explains why you would use an event in a program?</p>",
+        "options": [
+            "To trigger something happening in the program",
+            "To test if certain conditions exist in order to control what happens",
+            "To carry out instructions in the program repeatedly",
+            "To define data storage and what operations to carry out on data"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "The term that best describes a subroutine that calculates a value for the program in which it is contained is:",
+        "options": [
+            "Function",
+            "Debugging",
+            "Procedure",
+            "For loop"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following best describe a subroutine that calculates a value for the program in which it is contained?",
+        "options": [
+            "Debugging",
+            "Procedure",
+            "For loop",
+            "Function"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following best describes a subroutine that executes an action in a program without returning a value?",
+        "options": [
+            "Boolean",
+            "Iteration",
+            "Procedure",
+            "Variable"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following terms best describes the process of a subroutine dividing a problem into simpler parts and calling itself to solve those simpler parts? ",
+        "options": [
+            "Debugging",
+            "Recursion",
+            "Event",
+            "Variable"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following is another way to describe a Boolean expression? ",
+        "options": [
+            "A loop.",
+            "A logic test. ",
+            "An event handler. ",
+            "A syntax error."
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following is a placeholder for actual values that can be retrieved for use multiple times?",
+        "options": [
+            "A comment",
+            "A variable",
+            "A for loop",
+            "A comparison operator"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following is a special type of variable that is used to influence what a subroutine does? ",
+        "options": [
+            "Float",
+            "Function",
+            "Parameter",
+            "Pseudocode"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following is an organised set of instructions in the form of steps for solving problems?",
+        "options": [
+            "Pattern recognition. ",
+            "Decomposition",
+            "Abstraction",
+            "Algorithms"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following describes the activity of performing calculations or processing of data, especially using a computer system?",
+        "options": [
+            "Sequencing",
+            "Abstraction",
+            "Computing",
+            "Testing"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following best describes the activity of clearly defining the problems to be solved when creating a new program?",
+        "options": [
+            "Enhancement",
+            "Analysis"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following best defines computational thinking?",
+        "options": [
+            "Using a calculator to evaluate a maths equation",
+            "Analyzing problems and identifying possible solutions"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "You have created a list of decomposed steps for a program to describe how to bake a loaf of bread. Which one of the following details can be filtered out as unnecessary for this problem?",
+        "options": [
+            "Gather all the required ingredients",
+            "Place the ingredients into a blue baking tin"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which one of the following is a sequenced set of instructions used in computational thinking to solve problems?",
+        "options": [
+            "Procedures",
+            "* Algorithms"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "The code below contains an example of a subroutine that is intended to be triggered by a timer event. Which one of the following lines of code should be added to ensure that the subroutine h10 is run after a 10 second timer runs out?",
+        "options": [
+            "Screen.ontimer (h10, 10000)",
+            "Screen.ontimer (h10, 10)",
+            "Screen.ontimer (h10, 1000)",
+            "Screen.ontimer (h10, 1)"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "What involves breaking a complex problem down into smaller, simpler, easier to understand problems.",
+        "options": [
+            "Generalisation",
+            "Computing",
+            "Decomposition",
+            "Abstraction"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "What is the process of analysing problems and challenges and identifying possible solutions to help solve them.",
+        "options": [
+            "Computational Thinking",
+            "Computing",
+            "Abstraction",
+            "Decomposition"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "Which shape is used in a flowchart to denote a process?",
+        "options": [
+            "Diamond",
+            "Arrow",
+            "Rectangle",
+            "Oval"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which stage of program development is being discussed in the paragraph below?</strong></p><p>This involves working out the algorithms (sets of steps to follow) to solve the problem. This uses decomposition to break the problem down into smaller parts, and planning the design of the algorithm.</p>",
+        "options": [
+            "Analysis",
+            "Design",
+            "Enhancement",
+            "Testing",
+            "Programming"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>You are looking to follow a recipe for creating apple crumble. Which two steps should be stripped out as they are not relevant?</strong></P>",
+        "options": [
+            "Heat the oven to 190C",
+            "Peel, core, and slice the bramley apples",
+            "Taste test with some custard",
+            "Mix the flour, caster sugar, and butter",
+            "Pour the crumb mix over the apples",
+            "Put in the oven for 35-40 mins",
+            "Serve up in gold heart-shaped ramekins"
+        ],
+        "correctAnswers": [
+            2,
+            6
+        ],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which shape denotes the start and end of an algorithm in a flowchart?</strong><p>",
+        "options": [
+            "Rectangle",
+            "Oval",
+            "Arrow",
+            "Diamond"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<strong>What is the code written by the programmer that humans can understand. It is typed into a computer, usually as text, punctuation and symbols, which contains instructions for the computer.</strong>",
+        "options": [
+            "Source code",
+            "Pseudocode",
+            "Machine code",
+            "Programmer code"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<strong>A programming language is an example of a natural language. True or False?</strong>",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<strong>Which stage of program development is being discussed in the paragraph below? This involves checking that the program actually does what it was intended to</strong>",
+        "options": [
+            "Enhancement",
+            "Design",
+            "Analysis",
+            " Programming",
+            "Testing"
+        ],
+        "correctAnswers": [
+            4
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<strong>You need to add a decision to a flow chart. Which shape should you add?</strong>",
+        "options": [
+            "Arrow",
+            "Oval",
+            "Rectangle",
+            "Diamond"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<strong>In Python programming, pressing a key on the keyboard to change the direction of a character in a game is an example of an event handler. Select one:</strong> ",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>A learner driver is allowed to drive a car only if both of the following conditions are met:</p><p>A: they must have a learner's driving license.</p><p>B: they must be accompanied by an adult who has a full driving license.</p><p><strong>Review the script below and select the correct answer from the drop down menu.</strong></p><p>hasLearnerDrivingLicense = True</p><p>isAccompaniedByCertifiedAdult = True</p><p>isAllowedToDrive = (hasLearnerDrivingLicense</p><p>__________isAccompaniedByCertifiedAdult)</p><p>print(isAllowedToDrive)</p>",
+        "dropdownOptions": [
+            [
+                "and",
+                "or",
+                "not"
+            ]
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": true
+    },
+    {
+        "question": "<p><strong>Which shape denotes the start and end of an algorithm in a flowchart?</strong><p>num1 = 2</p><pre><code>num2 = 3; num3 = 4; result = num1 + num2 * num3; print(result) # 24/14/10/20/50 result = (num1 + num2) * num3; print(result) # 24/14/10/20/50 ; result = num2 + num3 / num1 # 2/4.0/14.0/10.0/20.0/5.0/0.0 </pre></code>",
+        "dropdownOptions": [
+            [
+                "24",
+                "14",
+                "10",
+                "20",
+                "50"
+            ],
+            [
+                "24",
+                "14",
+                "10",
+                "20",
+                "50"
+            ],
+            [
+                "2",
+                "4.0",
+                "14.0",
+                "10.0",
+                "20.0",
+                "5.0",
+                "0.0"
+            ]
+        ],
+        "correctAnswers": [
+            1,
+            3,
+            5
+        ],
+        "allowMultiple": false,
+        "isDropdown": true
+    },
+    {
+        "question": "<p><strong>For each variable declared and initialised below, select the correct data type from the dropdown list.</strong></p> <p>name = Derek ___</p> <p> age = 23 ___</p> <p>weight = 10.23 ___</p> <p>isOver18 = True</p>",
+        "dropdownOptions": [
+            [
+                "String",
+                "Integer",
+                "Float",
+                "Boolean"
+            ],
+            [
+                "String",
+                "Integer",
+                "Float",
+                "Boolean"
+            ],
+            [
+                "String",
+                "Integer",
+                "Float",
+                "Boolean"
+            ],
+            [
+                "String",
+                "Integer",
+                "Float",
+                "Boolean"
+            ]
+        ],
+        "correctAnswers": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": true
+    },
+    {
+        "question": "<p><strong>Review the Python program below. What will be the outputs?</strong></p><pre><code>a = 90;\n b = 10;\result = a - b;\n print(result)\n result = a * b\nprint(result)\n result = a / b\nprint(result)\nresult = a + b\nprint(result)</pre></code>",
+        "options": [
+            "<p>Result-80</p><p>Result-900</p><p>Result-9.0</p><p>Result-100</p>",
+            "<p>Result-100</p><p>Result-9.0</p><p>Result-900</p><p>Result-80</p>",
+            "<p>Result-80</p><p>Result-9.0</p><p>Result-900</p><p>Result-100</p>",
+            "None of the other answers are correct",
+            "<p>Result-100</p><p>Result-900</p><p>Result-80</p><p>Result-9.0</p>"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the script below and select the correct answer.</strong></p><pre><code>password = 'keys to the world'\nuserPasswordEntered = input('Enter the password: ')\n# Assume the user enters the correct password\nvalidPasswordEntered = not(password != userPasswordEntered)\nprint(validPasswordEntered)</pre></code>",
+        "options": [
+            "True is printed to the console",
+            "Due to an error, the script fails to run",
+            "The script runs but nothing is printed to the console",
+            "False is printed to the console"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the Python program below. What will be the output?</strong></p><pre><code>print(16+9*3)</pre></code>",
+        "options": [
+            "43",
+            "0",
+            "19",
+            "75"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the Python program below. What will be the output?</strong></p><pre><code>print( (16+9)*3 )</pre></code>",
+        "options": [
+            "19",
+            "0",
+            "43",
+            "75"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which of the following expressions evaluate to 0?</strong></p><p>Choose all that apply.</p>",
+        "options": [
+            "10*6/4",
+            "(10-6)-4",
+            "10-(6-4)",
+            "10-6-4"
+        ],
+        "correctAnswers": [
+            1,
+            3
+        ],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "The term that best describes a subroutine that calculates a value for the program in which it is contained is:",
+        "options": [
+            "Function",
+            "Debugging",
+            "Procedure",
+            "For loop"
+        ],
+        "correctAnswers": [
+            2,
+            3
+        ],
+        "allowMultiple": true,
+        "isDropdown": true
+    },
+    {
+        "question": "<p><strong>Review the script below and select the correct answer.</strong></p><pre><code>x = 10\nx = 'banana'\nx = True\nx = 12.34\nprint(x)</pre></code>",
+        "options": [
+            "The script does not execute because of an error.",
+            "12.34 is printed to the console.",
+            "True is printed to the console.",
+            "10 is printed to the console.",
+            "banana is printed to the console."
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the script below and select the correct answer</strong></p><p><strong>Assume that the user enters a value of 30 when prompted by the script</strong></p><pre><code>age = input('Enter your age: ')\nage = age + 7\nprint(age)</pre></code>",
+        "options": [
+            "307 is printed to the console.",
+            "30 is printed to the console.",
+            "37 is printed to the console.",
+            "The script fails to run because of an error (a 'TypeError')."
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Is the following statement true or false? The output of the script shown below is 2</strong></p><pre><code>noOfRegisteredUsers = 0\nnoOfRegisteredUsers = 2\nprint(noOfRegisteredUsers)</pre></code>",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program below and choose the correct answer.</strong></p><pre><code>courses = [\"Computers\", \"Arts\", \"DIY\", \"Music\", \"Sports\"]\ncourses[0] = 'Computer Studies'\ncourses.sort()\nprint(courses)</pre></code>",
+        "options": [
+            "The program fails to run because of an error.",
+            "The output of the program is:  ['Arts', 'Computers', 'DIY', 'Music', 'Sports']",
+            "The output of the program is: [\"Computer Studies\", \"Arts\", \"DIY\", \"Music,\" \"Sports\"]",
+            "The output of the program is: ['Arts', 'Computer Studies', 'DIY', 'Music', 'Sports']"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>An if-else statement is an example of which type of programming construct?</strong></p>",
+        "options": [
+            "variable",
+            "subroutine",
+            "conditional statement",
+            "iteration statement"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program below.</strong></p><pre><code>priceOfWonkaBar = 1.30\nmoneyInPocket = 1.30\nif moneyInPocket >= priceOfWonkaBar:\nprint('Go buy it, you may have won a golden ticket!')\nelse:\nprint('Sorry Charlie, you will have to try again.')</pre></code><p><strong>Which of the following statements is correct?</strong></p>",
+        "options": [
+            "<p>The following is printed to the console:</p><p>Sorry Charlie, you will have to try again.</p>",
+            "The script executes but nothing is printed to the console.",
+            "The script fails to run because of a syntax error.",
+            "<p>- The following is printed to the console:</p><p>Go buy it, you may have won a golden ticket!</p>"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program shown below.</strong></p><p><strong>Which statements will result in an error?</strong></p><p><strong>Choose all that apply.</strong></p><pre><code>popularNamesForBoys = ('Robert','Sam','Paul','Leo','David') # Line 1\npopularNamesForBoys[1] = 'Jack' # Line 2\npopularNamesForBoys.sort() # Line 3\nprint(popularNamesForBoys)# Line 4</code></pre>",
+        "options": [
+            "<p>Line 2</p>",
+            "<p>Line 4</p>",
+            "<p>There are no errors in the program.</p>",
+            "<p>Line 3</p>",
+            "<p>Line 1</p>"
+        ],
+        "correctAnswers": [
+            0,
+            3
+        ],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>You wish to store the names of the capital cities of Europe in a Python program.</p><p><strong>From a performance perspective, which of the following approaches would be the most efficient?</strong></p>",
+        "options": [
+            "Use a Tuple object to store the data.",
+            "Create a separate variable to store the name of each capital city.",
+            "Use a List object to store the data.",
+            "Create a String which stores the names of the capital cities and use a semi-colon as a separator."
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which of the following is an example of a comment in Python?</strong></p>",
+        "options": [
+            "/* Program created by Monty Burns */",
+            "# Program created by Monty Burns",
+            "' Program created by Monty Burns",
+            "// Program created by Monty Burns"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>You are creating a Python program to create a card game called, 'Game of 21'.</p>><p>The player is given 5 cards. If the sum of the 5 cards is less than or equal to 21, they win.</p><p>If the sum of the 5 cards is greater than 21, the player loses.</p><p>If the player wishes to quit before the values of all 5 cards are revealed, the game ends in a stalemate.</p><p>In the game, the following tasks need to be performed:</p><p>* The cards need to be 'shuffled'.</p><p>* For each round of the game that is played:</p><p>* The program will generate a 'random card' from the pack.</p><p>* The player must decide if they want the value of the card to be shown or if they wish to quit the game.</p><p>The program must determine the outcome of the game.</p><p><strong>Q: To ensure program readability, maintainability and reliable performance (removal of bugs), which of the following programming features and best practices should be used?</strong></p><p></strong>Choose all that apply.</strong></p>",
+        "options": [
+            "Writing the statements to solve the problem in one code block without breaking the tasks up into separate subroutines.",
+            "If required, the use of aggregate data types (Tuple or List) to store collections of values as opposed to using individual variables.",
+            "Indentation of any subroutines, decision-making and iteration statements used in the program.",
+            "Create subroutines for each of the processes that need to be performed in the game.",
+            "Use of descriptive names for variables and subroutines.",
+            "Use of comments to document the code written.",
+            "Using undescriptive (unclear) names for variables and subroutines."
+        ],
+        "correctAnswers": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which of the following are valid identifiers for variables in Python?</strong></p>",
+        "options": [
+            "euroHosts2004 = 'Portugal'",
+            "euro2004Hosts = 'Portugal'",
+            "euro_hosts_2004 = 'Portugal'",
+            "2004EuroHosts = 'Portugal'"
+        ],
+        "correctAnswers": [
+            0,
+            1,
+            2
+        ],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program below.</strong</p>><pre><code>temperature = 10\nif temperature >= 20:\nprint('You should wear sun factor 20 or above to protect your skin.')\nelse:\nprint('No need to wear sun cream today.')<pre><code><p><strong>Is the following statement true or false?</strong></p><p>The output of the script is:</p><p>No need to wear sun cream today.</p>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>In your script, you wish to store the names of towns in Ireland that have won a 'Tidy Town' award.</strong></p><p><strong>You are expecting that the following tasks will regularly need to be performed with the data.</strong></p><p>(a) new data will be added</p><p>(b) existing data may need to be modified</p><p>(c) the data may need to be sorted</p><p>You decide to use the Tuple Aggregate Data Type in your program to store the data.</p><p><strong>Is the following statement true or false?</strong></p>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>The following statement causes an error. Is this true or false?</strong></p><pre><code>for i in range(5):\nprint(i)</code></pre>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program below.</strong></p><pre><code>priceOfWonkaBar = 1.30\nmoneyInPocket = 1.29\nif moneyInPocket >= priceOfWonkaBar:\nprint('Go buy it, you may have won a golden ticket!')</code></pre><p><strong>Is the following statement true or false?</strong></p><p>The output of the script is:</p><p>Go buy it, you may have won a golden ticket!</p>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    }
+]
