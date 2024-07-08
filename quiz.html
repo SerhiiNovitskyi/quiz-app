@@ -15,13 +15,18 @@
             <div id="question"></div>
             <div id="options"></div>
         </div>
-        <button id="prev-btn" style="display: none;">Назад</button>
-        <button id="next-btn" style="display: none;">Далі</button>
-        <button id="finish-btn" style="display: none;">Завершити</button>
-        <button id="end-btn" style="display: none;">Кінець</button>
+        <div class="button-container">
+            <button id="prev-btn" style="display: none;">Назад</button>
+            <button id="next-btn" style="display: none;">Далі</button>
+            <button id="finish-btn" style="display: none;">Завершити</button>
+            <button id="exit-btn" onclick="location.href='index.html';">Вихід</button>
+        </div>
         <div id="result" class="hidden">
+            <button id="close-result-btn">Закрити</button>
             <div id="result-content"></div>
-            <button id="close-result-btn">x</button>
+        </div>
+        <div id="progress" class="progress">
+            <p>Пройдено питань: <span id="progress-count">0</span> із <span id="progress-total">0</span></p>
         </div>
     </div>
     <script src="script.js"></script>

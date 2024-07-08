@@ -792,5 +792,264 @@
         ],
         "allowMultiple": false,
         "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program below.</strong></p><pre><code>priceOfWonkaBar = 1.30\nmoneyInPocket = 1.30\nif moneyInPocket >= priceOfWonkaBar:\nprint('Go buy it, you may have won a golden ticket!')\nelse:\nprint('Sorry Charlie, you will have to try again.')</pre></code><p><strong>Which of the following statements is correct?</strong></p>",
+        "options": [
+            "<p>The following is printed to the console:</p><p>Sorry Charlie, you will have to try again.</p>",
+            "The script executes but nothing is printed to the console.",
+            "The script fails to run because of a syntax error.",
+            "<p>- The following is printed to the console:</p><p>Go buy it, you may have won a golden ticket!</p>"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program shown below and answer the question.</strong></p><pre><code>from random import choice\nmodes_of_transport = ('car','bicycle','plane','train','helicopter','bus','scooter','motorbike')\nprint('Today, let us travel by',random.choice(modes_of_transport))\n<p><strong>Q: It is possible that the output of the program could be: Today, let us travel by bus</p></strong>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Is the following statement true or false? The output of the script shown below is:</strong></p><pre><code>Sunny Side Fruit Imports / Exports PLC\nTotal pieces of fruit in stock: 55\nnoOfBananas = 10\nnoOfCoconuts = 12\nnoOfKiwis = 20\nnoOfPineapples = 13\nnoOfExoticFruits = noOfBananas + noOfCoconuts + noOfKiwis + noOfPineapples\nprint('Sunny Side Fruit Imports / Exports PLC')\nprint('Total pieces of fruit in stock: ' + noOfExoticFruits)</pre></code>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which concept in Computer Science is being described below?</strong></p><p>It is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.</p>",
+        "options": [
+            "Abstraction",
+            "An event",
+            "An event handler",
+            "Recursion"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which concept in Computer Science is being described below?</strong></p><p>It is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.</p>",
+        "options": [
+            "Abstraction",
+            "An event",
+            "An event handler",
+            "Recursion"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>The expected output of the (partially completed) program shown below is:</p><p><strong>Time: 13:43:43 Date: Monday, May 29 2023</strong></p><p>Q:Which of the following statements needs to be inserted on Line 3 in the program to achieve the expected output?</p><pre><code>import time # Line 1\ntimeStamp = time.gmtime() # Line 2\n<strong># Line 3</strong>\nprint(formattedDateStamp)\n</code></pre>",
+        "options": [
+            "formattedDateStamp = time.strftime(\"Time: %X Date: %a, %B %d %Y\",timeStamp)",
+            "formattedDateStamp = time.strftime(\"Time: %x Date: %A, %B %d %Y\",timeStamp)",
+            "formattedDateStamp = time.strftime(\"Time: %X Date: %A, %B %d %Y\",timeStamp)",
+            "formattedDateStamp = time.strftime(\"Time: %X Date: %a, %B %d %y\",timeStamp)"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Which of the following import statements are valid?</strong></p>",
+        "options": [
+            "There are no incorrect import statements listed. All are valid.",
+            "import math",
+            "import pow, sqrt from math",
+            "import * from math",
+            "from math import pow, sqrt"
+        ],
+        "correctAnswers": [
+            1,
+            4
+        ],
+        "allowMultiple": true,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Given the program shown below, which of the following statements is correct?</strong></p><pre><code># Money Jar app - divides a sum of money (ex: 37) into smaller units:\n# number of 20's, number of 10's, number of 5's, number of 1's\ndef analyzeMoneyJar(amount):\nreducingBalance = amount\nnoOf20s = int(reducingBalance / 20)\nprint('Number of 20s:',noOf20s)\nreducingBalance = reducingBalance % 20\nnoOf10s = int(reducingBalance / 10)\nprint('Number of 10s:',noOf10s)\nreducingBalance = reducingBalance % 10\nnoOf5s = int(reducingBalance / 5)\nprint('Number of 5s:',noOf5s)\nreducingBalance = reducingBalance % 5\nnoOfOneEuroCoins = reducingBalance\nprint('Number of One Euro Coins:',noOfOneEuroCoins)\nanalyzeMoneyJar(37)</code></pre>",
+        "options": [
+            "<p>The output of the program is:</p><p>Number of 20s: 1</p><p>Number of 10s: 1</p><p>Number of 5s: 1</p><p>Number of One Euro Coins: 2</p>",
+            "The program fails to run because of a logic error.",
+            "When the program runs, nothing appears in the console window.",
+            "The program fails to run because of a syntax error."
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Given the program shown below, what is the correct answer?</strong></p><pre><code>def convertLitresToGallons(noOfLitres):\n# 1 litre is 0.264172 gallons\nconversionRateToGallons = 0.264172\nnoOfGallons = noOfLitres / conversionRateToGallons\nreturn noOfGallons\nprint(convertLitresToGallons(1))</code></pre>",
+        "options": [
+            "The output of the program is: 3.785412534257983",
+            "The program fails to run because of a logic error.",
+            "The program fails to run because of a syntax error.",
+            "The output of the program is: 0.264172"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the program below and choose the correct answer(s).</strong></p><pre><code>import random\nprint('The computer has generated a random number from 1 to 10')\ncomputerGuess = random.randint(1,10)\nprint('Can you guess what number it is?')\nuserGuess = int(input('Enter your guess: '))\nif userGuess == computerGuess:\nprint('You win!')\nelse\nprint('You lose!')</code></pre>",
+        "options": [
+            "The script fails to run because of a syntax error.",
+            "The script fails to run because of a logic error",
+            "You lose! could be displayed in the console when the script runs.",
+            "You win! could be displayed in the console when the script runs"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>In the design of a new mobile phone app, language-specific labels and images have been included for the European, Asian and North American markets.</p><p><strong>Which Software Development concept is being referred to here?</p></strong>",
+        "options": [
+            "Recursion",
+            "Debugging",
+            "Localisation",
+            "Testing"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>Which process is being described below?</p><p><strong>When engaging in this process, the aim is to identify whether any errors and bugs exist in the program that has been developed.</p></strong>",
+        "options": [
+            "Localisation",
+            "Writing Pseudocode",
+            "Debugging",
+            "Testing"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Given the program shown below, which of the following answers is correct?</p></strong><pre><code>retirementAge = 65\nusersAge = 56\nif usersAge >= retirementAge\nprint('The user can receive a retirement pension.')\nelse\nprint('The user is not entitled to receive a retirement pension.')</code</pre>",
+        "options": [
+            "The program fails to run because of a datatype error(s).",
+            "The program fails to run because of a logic error(s).",
+            "The program fails to run because of a syntax error(s).",
+            "The output of the program is: The user is not entitled to receive a retirement pension.",
+            "The output of the program is: The user can receive a retirement pension."
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the script below.</strong></p><pre><code>def printStars(noOfStars):\ncount = 0\nwhile count < noOfStars:\nprint('*')\ncount = count + 1\nprintStars(5)</pre></code><p><strong>Is the following statement true or false?</strong></p><p><strong>When the printStars() subroutine is called, 5 stars are printed to the console.</strong></p>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Is the following statement true or false?</strong></p><p>A function is a subroutine that executes an action, but does not return a value.</p>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Is the following statement true or false?</strong></p><p>The output of the Python program shown below is:</p><p>Cakes</p><p>Biscuits</p><p>Sweets</p><p>Bars</p><pre><code>def chocolate_treats():\nchocolate_selection = ('Cakes','Biscuits','Sweets','Bars')\nfor i in range(len(chocolate_selection)):\nprint(chocolate_selection[I])\nchocolate_treats()</code></pre>",
+        "options": [
+            "True",
+            "False'"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>Review the Python program below.</strong></p><p><strong>Which of the following statements is correct?</strong></p><pre><code>def countdown(start):\nstop = 0\nprint('Commence Countdown..')\nwhile start > stop:\nprint(start)\nstart = start + 1\ncountdown(10)</code></pre>",
+        "options": [
+            "<p>The output of the script is:</p><p>Commence Countdown..</p><p>10</p><p>9</p><p>8</p><p>7</p><p>6</p><p>5</p><p>4</p><p>3</p><p>2</p><p>1</p><p>0</p>",
+            "The program when executed results in an infinite loop.'",
+            "The program fails to run due to an error.",
+            "<p>The output of the script is:</p><p>Commence Countdown..</p><p>10</p><p>9</p><p>8</p><p>7</p><p>6</p><p>5</p><p>4</p><p>3</p><p>2</p><p>1</p>"
+        ],
+        "correctAnswers": [
+            1
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p><strong>A(n) ___________ is a piece of code that is run repeatedly under certain conditions.</strong></p>",
+        "options": [
+            "variable",
+            "if statement",
+            "iteration statement",
+            "else statement"
+        ],
+        "correctAnswers": [
+            2
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
+    },
+    {
+        "question": "<p>You wish to write a Python program that prints the message, Hello World! to the console 10 times.</p><p><strong>Which of the following python programs will achieve this objective? Choose all that apply.</strong></p>",
+        "options": [
+            "<p>for i in range(10):</p><p>print('Hello World!')</p>",
+            "<p>for i in range(11):</p><p>print('Hello World!')</p>",
+            "<p>for i in range(10):</p><p>print('Hello World!',i)</p>",
+            "<p>for i in range(10):</p><p>print(i)</p>"
+        ],
+        "correctAnswers": [
+            0
+        ],
+        "allowMultiple": false,
+        "isDropdown": false
     }
 ]
